@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+._*
+
+# Supabase CLI local state — holds the linked project ref, not needed by anyone else
+supabase/.temp/
+
+# Secrets never belong here. The four this project needs are set with
+# `supabase secrets set` or in the dashboard, never committed.
+.env
+.env.*
